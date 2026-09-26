@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Registration Form</title>
+    </head>
+
+    <body>
+        <h1>Student Registration Form</h1>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="0">
+            <br><br>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <br><br>
+
+            <label for="hobbies">Hobbies:</label>
+            <input type="checkbox" id="hobbies" name="hobbies" value="reading">
+            <label for="hobbies">Reading</label>
+            <input type="checkbox" id="hobbies" name="hobbies" value="sports">
+            <label for="hobbies">Sports</label>
+            <input type="checkbox" id="hobbies" name="hobbies" value="gaming">
+            <label for="hobbies">Gaming</label>
+            <input type="checkbox" id="hobbies" name="hobbies" value="movies">
+            <label for="hobbies">Movies</label>
+            <br><br>
+
+            <dropdown>Course</dropdown>
+            <select id="course" name="course">
+                <option value="cs">Computer Science</option>
+                <option value="it">Information Technology</option>
+            </select>    
+            <br><br>
+
+            <button type="submit">Submit</button>
+            <br><br>
+        </form>
+
+        <hr>
+
+        <h2>Student Activities</h2>
+        <ul>
+            <li>Attending Seminars</li>
+            <li>Participating in Events</li>
+            <li>Joining Organizations</li>
+        </ul>
+
+        <h2>Steps</h2>
+        <ol>
+            <li>Register for the course</li>
+            <li>Submit the form</li>
+            <li>Wait for confirmation</li>
+        </ol>
+
+        <h2>Description</h2>
+        <dl>
+            <dt><b>Seminar</b>/dt>
+            <dd>An educational session or workshop</dd>
+            <dt><b>Events</b></dt>
+            <dd>An activity or gathering for a specific purpose</dd>
+            <dt><b>Organizations</b></dt>
+            <dd>A group of people with a common interest or goal</dd>
+        </dl>
+
+        <hr>
+
+        <h2>Student Information Table</h2>
+        <table border="1">
+            <tr>
+                <th>Student ID</th>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Year Level</th>
+            </tr>
+            <tr>
+                <td>22-06023</td>
+                <td>John Zedrick D. Monterey</td>
+                <td>Information Technology</td>
+                <td>Third Year</td>
+            </tr>
+
+            <tr>
+                <td>24-09556</td>
+                <td>Precious Adelline V. Navarro</td>
+                <td>Information Technology</td>
+                <td>Third Year</td>
+            </tr>
+
+            <tr>
+                <td>24-09286</td>
+                <td>Charish B. Villanueva</td>
+                <td>Information Technology</td>
+                <td>Third Year</td>
+            </tr>
+        </table>
+    </body>
+</html>
