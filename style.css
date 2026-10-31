@@ -62,10 +62,10 @@ main {
 /* Simple List Styling */
 .activity-list {
     list-style: none;
-    background: var(--card-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+    background: #F5FAFF;
+    border: 1px solid #BDD7EE;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(23, 54, 93, 0.08);
     margin-bottom: 2.5rem;
     overflow: hidden;
 }
@@ -75,18 +75,25 @@ main {
     justify-content: space-between;
     align-items: center;
     padding: 1.25rem 1.5rem;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 1px solid #BDD7EE;
     gap: 1rem;
+    transition: 0.3s ease;
 }
 
 .activity-list li:last-child {
     border-bottom: none;
 }
 
+.activity-list li:hover {
+    background-color: #EAF4FC;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(23, 54, 93, 0.12);
+}
+
 .activity-info strong {
     display: block;
     font-size: 1.05rem;
-    color: var(--text-main);
+    color: #17365D;
     margin-bottom: 0.2rem;
 }
 
