@@ -16,9 +16,10 @@
 }
 
 body {
-    background-color: var(--bg-color);
+    background: linear-gradient(to bottom, #D6EAF8, #A7C7E7, #EAF4FC);
     color: var(--text-main);
     line-height: 1.6;
+    min-height: 100vh;
 }
 
 /* Banner Header */
